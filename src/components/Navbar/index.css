@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.nav-dark-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.logo {
+  height: 50px;
+}
+.nav-light-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.ul-container {
+  display: flex;
+}
+.light-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  list-style-type: none;
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+.theme-logo {
+  height: 40px;
+  align-self: center;
+}
+.dark-text {
+  font-family: 'Roboto';
+  color: #1e293b;
+  list-style-type: none;
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+.link-text {
+  text-decoration: none;
+}
+.button {
+  background-color: transparent;
+  border: none;
+}
+@media screen and (max-width: 576px) {
+  .nav-dark-container {
+    justify-content: space-around;
+  }
+  .nav-light-container {
+    justify-content: space-around;
+  }
+  .logo {
+    height: 38px;
+  }
+  .theme-logo {
+    height: 35px;
+  }
+}

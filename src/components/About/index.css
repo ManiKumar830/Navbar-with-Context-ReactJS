@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.about-dark-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-light-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  width: 150px;
+}
+.about-light-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 40px;
+}
+.about-dark-text {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 40px;
+}
+@media screen and (min-width: 768px) {
+  .about-image {
+    width: 170px;
+  }
+  .about-text {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.notfound-dark-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.notfound-light-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.notfound-image {
+  width: 300px;
+}
+.notfound-light-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: 500;
+}
+.notfound-dark-text {
+  font-family: 'Roboto';
+  color: #334155;
+  font-size: 27px;
+  font-weight: 500;
+}
+.notfound-light-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 19px;
+  text-align: center;
+}
+.notfound-dark-description {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 19px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .notfound-image {
+    width: 400px;
+  }
+  .notfound-light-text {
+    font-size: 40px;
+  }
+  .notfound-dark-text {
+    font-size: 40px;
+  }
+  .notfound-light-description {
+    font-size: 22px;
+  }
+  .notfound-dark-description {
+    font-size: 22px;
+  }
+}
